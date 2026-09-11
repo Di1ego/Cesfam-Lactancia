@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dolor-al-amamantar",
+    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Dolor al amamantar",
+    "alerta": false
+  },
+  {
+    "id": "grietas-pezon",
+    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Grietas en el pezón",
+    "alerta": false
+  },
+  {
+    "id": "fiebre",
+    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Fiebre",
+    "alerta": true
+  },
+  {
+    "id": "pecho-rojo-caliente",
+    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Pecho rojo, caliente e hinchado",
+    "alerta": true
+  },
+  {
+    "id": "bebe-no-sube-de-peso",
+    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] El bebé no sube de peso",
+    "alerta": true
+  },
+  {
+    "id": "poca-produccion-leche",
+    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Siento que tengo poca leche",
+    "alerta": false
+  }
+]

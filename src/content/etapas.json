@@ -1,0 +1,58 @@
+[
+  {
+    "id": "embarazo-primer-trimestre",
+    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Primer trimestre de embarazo",
+    "tipo": "embarazo",
+    "semanaInicio": 0,
+    "semanaFin": 13,
+    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+  },
+  {
+    "id": "embarazo-segundo-trimestre",
+    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Segundo trimestre de embarazo",
+    "tipo": "embarazo",
+    "semanaInicio": 14,
+    "semanaFin": 27,
+    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+  },
+  {
+    "id": "embarazo-tercer-trimestre",
+    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Tercer trimestre de embarazo",
+    "tipo": "embarazo",
+    "semanaInicio": 28,
+    "semanaFin": 42,
+    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+  },
+  {
+    "id": "bebe-recien-nacido",
+    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Recién nacido (0 a 1 mes)",
+    "tipo": "bebe",
+    "mesInicio": 0,
+    "mesFin": 0,
+    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+  },
+  {
+    "id": "bebe-1-a-3-meses",
+    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] 1 a 3 meses",
+    "tipo": "bebe",
+    "mesInicio": 1,
+    "mesFin": 2,
+    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+  },
+  {
+    "id": "bebe-3-a-6-meses",
+    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] 3 a 6 meses",
+    "tipo": "bebe",
+    "mesInicio": 3,
+    "mesFin": 5,
+    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+  },
+  {
+    "id": "bebe-6-a-12-meses",
+    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] 6 a 12 meses",
+    "tipo": "bebe",
+    "mesInicio": 6,
+    "mesFin": 11,
+    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+  }
+]
