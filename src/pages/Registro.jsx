@@ -45,11 +45,14 @@ export function Registro() {
 
   return (
     <div>
-      <h1>Registro</h1>
-      <form onSubmit={manejarEnvio}>
+      <div className="encabezado">
+        <h1 className="encabezado__titulo">Cuéntanos tu situación</h1>
+        <p className="encabezado__subtitulo">Así podemos mostrarte contenido para tu etapa.</p>
+      </div>
+
+      <form onSubmit={manejarEnvio} className="pila">
         <div>
           <label htmlFor="nombre">Nombre (opcional)</label>
-          <br />
           <input
             id="nombre"
             type="text"
@@ -60,7 +63,7 @@ export function Registro() {
 
         <fieldset>
           <legend>¿Cuál es tu situación?</legend>
-          <label htmlFor="tipo-embarazo">
+          <label className="opcion-radio" htmlFor="tipo-embarazo">
             <input
               id="tipo-embarazo"
               type="radio"
@@ -71,8 +74,7 @@ export function Registro() {
             />
             Estoy embarazada
           </label>
-          <br />
-          <label htmlFor="tipo-bebe">
+          <label className="opcion-radio" htmlFor="tipo-bebe">
             <input
               id="tipo-bebe"
               type="radio"
@@ -91,7 +93,6 @@ export function Registro() {
               ? 'Fecha probable de parto'
               : 'Fecha de nacimiento del bebé'}
           </label>
-          <br />
           <input
             id="fecha"
             type="date"
@@ -100,12 +101,18 @@ export function Registro() {
           />
         </div>
 
-        {error && <p role="alert">{error}</p>}
+        {error && (
+          <p role="alert" className="texto-error">
+            {error}
+          </p>
+        )}
 
-        <button type="submit">Guardar</button>
+        <button type="submit" className="btn btn-primario btn-bloque">
+          Guardar
+        </button>
       </form>
 
-      <button type="button" onClick={manejarBorrado}>
+      <button type="button" className="btn-texto" onClick={manejarBorrado}>
         Borrar mis datos
       </button>
     </div>

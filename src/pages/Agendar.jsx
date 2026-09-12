@@ -6,15 +6,21 @@ export function Agendar() {
 
   return (
     <div>
-      <h1>Cómo agendar hora en CLAC</h1>
+      <div className="encabezado">
+        <h1 className="encabezado__titulo">Cómo agendar hora en CLAC</h1>
+      </div>
 
-      <h2>Horarios de atención</h2>
-      <p>{config.horariosAtencion}</p>
+      <div className="tarjeta">
+        <h2>Horarios de atención</h2>
+        <p>{config.horariosAtencion}</p>
+      </div>
 
-      <h2>Requisitos</h2>
-      <p>{config.requisitosAgendar}</p>
+      <div className="tarjeta">
+        <h2>Requisitos</h2>
+        <p>{config.requisitosAgendar}</p>
+      </div>
 
-      <a href={enlaceWhatsapp} target="_blank" rel="noreferrer">
+      <a className="btn btn-primario btn-bloque" href={enlaceWhatsapp} target="_blank" rel="noreferrer">
         Agendar por WhatsApp
       </a>
     </div>

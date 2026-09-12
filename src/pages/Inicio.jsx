@@ -4,18 +4,19 @@ import config from '../content/config.json'
 export function Inicio() {
   return (
     <div>
-      <h1>Clínica de Lactancia Materna (CLAC)</h1>
-      <p>{config.avisoInicio}</p>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/agendar">Cómo agendar hora en CLAC</Link>
-          </li>
-          <li>
-            <Link to="/registro">Registro</Link>
-          </li>
-        </ul>
-      </nav>
+      <div className="encabezado">
+        <h1 className="encabezado__titulo">Clínica de Lactancia Materna (CLAC)</h1>
+        <p className="encabezado__subtitulo">{config.avisoInicio}</p>
+      </div>
+
+      <div className="pila">
+        <Link className="btn btn-primario btn-bloque" to="/agendar">
+          Cómo agendar hora en CLAC
+        </Link>
+        <Link className="btn btn-secundario btn-bloque" to="/registro">
+          Comenzar mi registro
+        </Link>
+      </div>
     </div>
   )
 }

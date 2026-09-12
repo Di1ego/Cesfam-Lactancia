@@ -13,7 +13,7 @@ Clínica de Lactancia (CLAC) del CESFAM Arauco.
 5. **Resultado**:
    - Si marca algún síntoma de alerta → pantalla que recomienda pedir hora prioritaria en CLAC, con botón a WhatsApp y mensaje prellenado.
    - Si no marca alertas → pasa directo al camino.
-6. **Camino por etapas** (estilo juego: ruta vertical con nodos circulares): embarazo y ciclo vital del bebé. La etapa actual se calcula desde las fechas y se destaca. Cada nodo abre un desplegable con contenido basado en guías MINSAL.
+6. **Camino por etapas** (estilo juego: ruta horizontal en zigzag con nodos, como un mapa de niveles): embarazo y ciclo vital del bebé. La etapa actual se calcula desde las fechas y se destaca. Cada nodo abre un desplegable con contenido basado en guías MINSAL.
 
 ## Reglas clínicas (no negociables)
 - No escribas contenido clínico propio. Todo texto de salud vive en `src/content/` y lo redacta y valida el equipo. Si falta contenido, usa el marcador `[CONTENIDO PENDIENTE DE VALIDACIÓN]`.
