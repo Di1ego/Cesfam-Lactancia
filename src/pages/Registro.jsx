@@ -1,8 +1,12 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { EnlaceInicio } from '../components/EnlaceInicio'
 import { borrarRegistro, guardarRegistro, leerRegistro } from '../lib/almacenamiento'
+import { fechaEsFutura, fppFueraDeRango } from '../lib/fechas'
+import { usePageTitle } from '../lib/usePageTitle'
 
 export function Registro() {
+  usePageTitle('Registro')
   const navigate = useNavigate()
   const [nombre, setNombre] = useState('')
   const [tipo, setTipo] = useState('embarazo')
@@ -30,6 +34,16 @@ export function Registro() {
       return
     }
 
+    if (tipo === 'bebe' && fechaEsFutura(fecha)) {
+      setError('La fecha de nacimiento no puede ser en el futuro.')
+      return
+    }
+
+    if (tipo === 'embarazo' && fppFueraDeRango(fecha)) {
+      setError('Revisa la fecha probable de parto: no puede ser en el pasado ni demasiado lejana.')
+      return
+    }
+
     setError('')
     guardarRegistro({ nombre, tipo, fecha })
     navigate('/checklist')
@@ -45,6 +59,7 @@ export function Registro() {
 
   return (
     <div>
+      <EnlaceInicio />
       <div className="encabezado">
         <h1 className="encabezado__titulo">Cuéntanos tu situación</h1>
         <p className="encabezado__subtitulo">Así podemos mostrarte contenido para tu etapa.</p>

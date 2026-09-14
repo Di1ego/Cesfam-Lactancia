@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { EnlaceInicio } from '../components/EnlaceInicio'
 import { IconoCheck } from '../components/Iconos'
 import sintomas from '../content/sintomas.json'
 import { hayAlerta } from '../lib/triage'
+import { usePageTitle } from '../lib/usePageTitle'
 
 export function Checklist() {
+  usePageTitle('Síntomas')
   const navigate = useNavigate()
   const [seleccionados, setSeleccionados] = useState([])
 
@@ -26,8 +29,9 @@ export function Checklist() {
 
   return (
     <div>
+      <EnlaceInicio />
       <div className="encabezado">
-        <h1 className="encabezado__titulo">¿Cómo te has sentido?</h1>
+        <h1 className="encabezado__titulo">¿Has tenido alguno de estos síntomas?</h1>
         <p className="encabezado__subtitulo">
           Marca todo lo que te esté pasando. Puedes elegir más de una opción.
         </p>

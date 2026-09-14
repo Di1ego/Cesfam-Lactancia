@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { calcularEdadBebe, calcularEdadGestacional } from './fechas'
+import {
+  calcularEdadBebe,
+  calcularEdadGestacional,
+  fechaEsFutura,
+  fppFueraDeRango,
+} from './fechas'
 
 describe('calcularEdadGestacional', () => {
   it('da 0 semanas y 0 días cuando la FPP es hoy', () => {
@@ -44,5 +49,41 @@ describe('calcularEdadBebe', () => {
     const resultado = calcularEdadBebe(nacimiento, hoy)
     expect(resultado.meses).toBe(0)
     expect(resultado.dias).toBe(0)
+  })
+})
+
+describe('fechaEsFutura', () => {
+  const hoy = new Date('2026-09-10')
+
+  it('devuelve false para hoy', () => {
+    expect(fechaEsFutura('2026-09-10', hoy)).toBe(false)
+  })
+
+  it('devuelve false para una fecha pasada', () => {
+    expect(fechaEsFutura('2026-01-01', hoy)).toBe(false)
+  })
+
+  it('devuelve true para una fecha futura', () => {
+    expect(fechaEsFutura('2026-09-11', hoy)).toBe(true)
+  })
+})
+
+describe('fppFueraDeRango', () => {
+  const hoy = new Date('2026-09-10')
+
+  it('devuelve false para una FPP razonable en el futuro', () => {
+    expect(fppFueraDeRango('2026-12-01', hoy)).toBe(false)
+  })
+
+  it('devuelve false para una FPP de hoy', () => {
+    expect(fppFueraDeRango('2026-09-10', hoy)).toBe(false)
+  })
+
+  it('devuelve true para una FPP en el pasado', () => {
+    expect(fppFueraDeRango('2026-09-09', hoy)).toBe(true)
+  })
+
+  it('devuelve true para una FPP demasiado lejana en el futuro', () => {
+    expect(fppFueraDeRango('2027-12-01', hoy)).toBe(true)
   })
 })

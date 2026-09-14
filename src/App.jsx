@@ -3,6 +3,7 @@ import { Agendar } from './pages/Agendar'
 import { Camino } from './pages/Camino'
 import { Checklist } from './pages/Checklist'
 import { Inicio } from './pages/Inicio'
+import { NoEncontrada } from './pages/NoEncontrada'
 import { Registro } from './pages/Registro'
 import { Resultado } from './pages/Resultado'
 
@@ -15,6 +16,7 @@ function App() {
       <Route path="/checklist" element={<Checklist />} />
       <Route path="/resultado" element={<Resultado />} />
       <Route path="/camino" element={<Camino />} />
+      <Route path="*" element={<NoEncontrada />} />
     </Routes>
   )
 }

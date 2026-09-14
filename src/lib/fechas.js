@@ -20,6 +20,17 @@ export function calcularEdadGestacional(fpp, fechaActual = new Date()) {
   }
 }
 
+const MAX_DIAS_FPP_FUTURA = 300 // ~43 semanas, con margen sobre las 40 de gestación completa
+
+export function fechaEsFutura(fecha, fechaActual = new Date()) {
+  return diferenciaEnDias(fechaActual, fecha) > 0
+}
+
+export function fppFueraDeRango(fecha, fechaActual = new Date()) {
+  const dias = diferenciaEnDias(fechaActual, fecha)
+  return dias < 0 || dias > MAX_DIAS_FPP_FUTURA
+}
+
 export function calcularEdadBebe(fechaNacimiento, fechaActual = new Date()) {
   const dias = Math.max(0, diferenciaEnDias(fechaNacimiento, fechaActual))
   const nacimiento = new Date(fechaNacimiento)

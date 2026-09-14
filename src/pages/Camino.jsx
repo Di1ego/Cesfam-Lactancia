@@ -1,16 +1,20 @@
 import { Link } from 'react-router-dom'
 import './Camino.css'
 import etapas from '../content/etapas.json'
+import { EnlaceInicio } from '../components/EnlaceInicio'
 import { IconoActual, IconoCheck, IconoChevron } from '../components/Iconos'
 import { leerRegistro } from '../lib/almacenamiento'
 import { calcularEtapaActualId } from '../lib/etapa'
+import { usePageTitle } from '../lib/usePageTitle'
 
 export function Camino() {
+  usePageTitle('Tu camino')
   const registro = leerRegistro()
 
   if (!registro) {
     return (
       <div>
+        <EnlaceInicio />
         <h1>Camino por etapas</h1>
         <div className="tarjeta" style={{ textAlign: 'center' }}>
           <p>Primero cuéntanos tu situación para mostrarte tu etapa.</p>
@@ -28,6 +32,7 @@ export function Camino() {
 
   return (
     <div>
+      <EnlaceInicio />
       <div className="encabezado">
         <h1 className="encabezado__titulo">Tu camino</h1>
         <p className="encabezado__subtitulo">
@@ -36,6 +41,12 @@ export function Camino() {
             : 'Etapa a etapa, según la edad de tu bebé.'}
         </p>
       </div>
+
+      {indiceActual === -1 && (
+        <div className="tarjeta" style={{ textAlign: 'center' }}>
+          <p>No encontramos una etapa exacta para tu fecha, pero puedes revisar todas las etapas igual.</p>
+        </div>
+      )}
 
       <ol className="camino-lista">
         {etapasDelCamino.map((etapa, indice) => {

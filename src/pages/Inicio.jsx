@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
 import config from '../content/config.json'
+import { usePageTitle } from '../lib/usePageTitle'
 
 export function Inicio() {
+  usePageTitle('Inicio')
+
   return (
     <div>
       <div className="encabezado">

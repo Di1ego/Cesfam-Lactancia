@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
+import { EnlaceInicio } from '../components/EnlaceInicio'
 import config from '../content/config.json'
+import { usePageTitle } from '../lib/usePageTitle'
 
 export function Resultado() {
+  usePageTitle('Hora prioritaria')
   const mensaje = encodeURIComponent(
     config.whatsapp.mensajePrellenadoPrioritario,
   )
@@ -9,6 +12,7 @@ export function Resultado() {
 
   return (
     <div>
+      <EnlaceInicio />
       <div className="aviso-alerta">
         <h1>Te recomendamos pedir hora prioritaria</h1>
         <p>
