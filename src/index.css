@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   font-size: 16px;
   font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
 
@@ -149,6 +149,12 @@ input[type='date'] {
   border-radius: var(--radius-md);
   font-family: inherit;
   box-sizing: border-box;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+input[type='radio'] {
+  accent-color: var(--color-primary);
 }
 
 input[type='text']:focus,
