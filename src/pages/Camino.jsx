@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './Camino.css'
 import etapas from '../content/etapas.json'
 import { EnlaceInicio } from '../components/EnlaceInicio'
-import { IconoActual, IconoCheck, IconoChevron } from '../components/Iconos'
+import { IconoActual, IconoCheck, IconoChevron, IconoGota } from '../components/Iconos'
 import { leerRegistro } from '../lib/almacenamiento'
 import { calcularEtapaActualId } from '../lib/etapa'
 import { usePageTitle } from '../lib/usePageTitle'
@@ -16,7 +16,10 @@ export function Camino() {
       <div>
         <EnlaceInicio />
         <h1>Camino por etapas</h1>
-        <div className="tarjeta" style={{ textAlign: 'center' }}>
+        <div className="tarjeta tarjeta-vacia">
+          <div className="tarjeta-vacia__icono">
+            <IconoGota />
+          </div>
           <p>Primero cuéntanos tu situación para mostrarte tu etapa.</p>
           <Link className="btn btn-primario btn-bloque" to="/registro">
             Ir a Registro
@@ -43,7 +46,7 @@ export function Camino() {
       </div>
 
       {indiceActual === -1 && (
-        <div className="tarjeta" style={{ textAlign: 'center' }}>
+        <div className="tarjeta tarjeta-vacia">
           <p>No encontramos una etapa exacta para tu fecha, pero puedes revisar todas las etapas igual.</p>
         </div>
       )}

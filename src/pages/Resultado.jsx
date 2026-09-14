@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { EnlaceInicio } from '../components/EnlaceInicio'
+import { IconoChat } from '../components/Iconos'
 import config from '../content/config.json'
 import { usePageTitle } from '../lib/usePageTitle'
 
@@ -22,6 +23,7 @@ export function Resultado() {
         <p>[CONTENIDO PENDIENTE DE VALIDACIÓN]</p>
 
         <a className="btn btn-acento btn-bloque" href={enlaceWhatsapp} target="_blank" rel="noreferrer">
+          <IconoChat />
           Escribir a CLAC por WhatsApp
         </a>
       </div>

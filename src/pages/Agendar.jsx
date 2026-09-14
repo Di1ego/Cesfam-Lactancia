@@ -1,4 +1,5 @@
 import { EnlaceInicio } from '../components/EnlaceInicio'
+import { IconoChat } from '../components/Iconos'
 import config from '../content/config.json'
 import { usePageTitle } from '../lib/usePageTitle'
 
@@ -25,6 +26,7 @@ export function Agendar() {
       </div>
 
       <a className="btn btn-primario btn-bloque" href={enlaceWhatsapp} target="_blank" rel="noreferrer">
+        <IconoChat />
         Agendar por WhatsApp
       </a>
     </div>
