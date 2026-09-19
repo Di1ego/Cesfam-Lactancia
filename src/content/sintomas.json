@@ -1,32 +1,134 @@
 [
   {
     "id": "dolor-al-amamantar",
-    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Dolor al amamantar",
-    "alerta": false
+    "texto": "Dolor al amamantar",
+    "alerta": true,
+    "tipo": "bebe"
   },
   {
     "id": "grietas-pezon",
-    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Grietas en el pezón",
-    "alerta": false
+    "texto": "Grietas del pezón",
+    "alerta": true,
+    "tipo": "bebe"
+  },
+  {
+    "id": "congestion-mamaria",
+    "texto": "Congestión mamaria (o ingurgitación)",
+    "alerta": true,
+    "tipo": "bebe"
   },
   {
     "id": "fiebre",
     "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Fiebre",
-    "alerta": true
+    "alerta": true,
+    "tipo": "bebe"
   },
   {
     "id": "pecho-rojo-caliente",
     "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Pecho rojo, caliente e hinchado",
-    "alerta": true
+    "alerta": true,
+    "tipo": "bebe"
   },
   {
     "id": "bebe-no-sube-de-peso",
     "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] El bebé no sube de peso",
-    "alerta": true
+    "alerta": true,
+    "tipo": "bebe"
   },
   {
     "id": "poca-produccion-leche",
     "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Siento que tengo poca leche",
-    "alerta": false
+    "alerta": false,
+    "tipo": "bebe"
+  },
+  {
+    "id": "antojo",
+    "texto": "Antojo",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "nauseas-vomitos",
+    "texto": "Náuseas y vómitos",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "reflujo",
+    "texto": "Reflujo",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "acidez",
+    "texto": "Acidez",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "estrenimiento-constipacion",
+    "texto": "Estreñimiento o constipación",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "dolor-epigastrico",
+    "texto": "Dolor en la boca del estómago (epigastralgia)",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "cefalea-intensa",
+    "texto": "Cefalea o dolor de cabeza intenso",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "fatiga-cambios-energia",
+    "texto": "Fatiga o cambios en la energía",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "tension-pechos",
+    "texto": "Tensión, sensibilidad o aumento de tamaño en pechos",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "pesadez-piso-pelvico",
+    "texto": "Molestia o pesadez en el piso pélvico",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "hinchazon-edema",
+    "texto": "Hinchazón o edema",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "alzas-presion-arterial",
+    "texto": "Alzas de presión arterial",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "dolor-torax",
+    "texto": "Dolor de tórax o pecho",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "ictericia",
+    "texto": "Coloración amarillenta en piel o mucosas (ictericia)",
+    "alerta": false,
+    "tipo": "embarazo"
+  },
+  {
+    "id": "sangrado-vaginal",
+    "texto": "Sangrado o flujo sanguinolento vaginal",
+    "alerta": false,
+    "tipo": "embarazo"
   }
 ]

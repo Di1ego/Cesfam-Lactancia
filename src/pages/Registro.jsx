@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { EnlaceInicio } from '../components/EnlaceInicio'
 import { borrarRegistro, guardarRegistro, leerRegistro } from '../lib/almacenamiento'
-import { fechaEsFutura, fppFueraDeRango } from '../lib/fechas'
+import { calcularFppDesdeSemanas, fechaEsFutura, fppFueraDeRango } from '../lib/fechas'
 import { usePageTitle } from '../lib/usePageTitle'
 
 export function Registro() {
@@ -10,7 +10,9 @@ export function Registro() {
   const navigate = useNavigate()
   const [nombre, setNombre] = useState('')
   const [tipo, setTipo] = useState('embarazo')
+  const [modoFecha, setModoFecha] = useState('fpp')
   const [fecha, setFecha] = useState('')
+  const [semanas, setSemanas] = useState('')
   const [error, setError] = useState('')
 
   useEffect(() => {
@@ -25,27 +27,42 @@ export function Registro() {
   function manejarEnvio(evento) {
     evento.preventDefault()
 
-    if (!fecha) {
-      setError(
-        tipo === 'embarazo'
-          ? 'Por favor ingresa tu fecha probable de parto.'
-          : 'Por favor ingresa la fecha de nacimiento de tu bebé.',
-      )
-      return
-    }
+    let fechaFinal = fecha
 
-    if (tipo === 'bebe' && fechaEsFutura(fecha)) {
-      setError('La fecha de nacimiento no puede ser en el futuro.')
-      return
-    }
+    if (tipo === 'embarazo' && modoFecha === 'semanas') {
+      const semanasNum = Number(semanas)
+      if (semanas === '' || Number.isNaN(semanasNum)) {
+        setError('Por favor ingresa cuántas semanas de embarazo tienes.')
+        return
+      }
+      if (semanasNum < 0 || semanasNum > 42) {
+        setError('Ingresa un número de semanas entre 0 y 42.')
+        return
+      }
+      fechaFinal = calcularFppDesdeSemanas(semanasNum)
+    } else {
+      if (!fecha) {
+        setError(
+          tipo === 'embarazo'
+            ? 'Por favor ingresa tu fecha probable de parto.'
+            : 'Por favor ingresa la fecha de nacimiento de tu bebé.',
+        )
+        return
+      }
 
-    if (tipo === 'embarazo' && fppFueraDeRango(fecha)) {
-      setError('Revisa la fecha probable de parto: no puede ser en el pasado ni demasiado lejana.')
-      return
+      if (tipo === 'bebe' && fechaEsFutura(fecha)) {
+        setError('La fecha de nacimiento no puede ser en el futuro.')
+        return
+      }
+
+      if (tipo === 'embarazo' && fppFueraDeRango(fecha)) {
+        setError('Revisa la fecha probable de parto: no puede ser en el pasado ni demasiado lejana.')
+        return
+      }
     }
 
     setError('')
-    guardarRegistro({ nombre, tipo, fecha })
+    guardarRegistro({ nombre, tipo, fecha: fechaFinal })
     navigate('/checklist')
   }
 
@@ -102,19 +119,62 @@ export function Registro() {
           </label>
         </fieldset>
 
-        <div>
-          <label htmlFor="fecha">
-            {tipo === 'embarazo'
-              ? 'Fecha probable de parto'
-              : 'Fecha de nacimiento del bebé'}
-          </label>
-          <input
-            id="fecha"
-            type="date"
-            value={fecha}
-            onChange={(e) => setFecha(e.target.value)}
-          />
-        </div>
+        {tipo === 'embarazo' && (
+          <fieldset>
+            <legend>¿Cómo quieres darnos tu información?</legend>
+            <label className="opcion-radio" htmlFor="modo-fpp">
+              <input
+                id="modo-fpp"
+                type="radio"
+                name="modoFecha"
+                value="fpp"
+                checked={modoFecha === 'fpp'}
+                onChange={() => setModoFecha('fpp')}
+              />
+              Sé mi fecha probable de parto
+            </label>
+            <label className="opcion-radio" htmlFor="modo-semanas">
+              <input
+                id="modo-semanas"
+                type="radio"
+                name="modoFecha"
+                value="semanas"
+                checked={modoFecha === 'semanas'}
+                onChange={() => setModoFecha('semanas')}
+              />
+              Sé cuántas semanas de embarazo tengo
+            </label>
+          </fieldset>
+        )}
+
+        {tipo === 'embarazo' && modoFecha === 'semanas' ? (
+          <div>
+            <label htmlFor="semanas">Semanas de embarazo</label>
+            <input
+              id="semanas"
+              type="number"
+              inputMode="numeric"
+              min="0"
+              max="42"
+              value={semanas}
+              onChange={(e) => setSemanas(e.target.value)}
+            />
+          </div>
+        ) : (
+          <div>
+            <label htmlFor="fecha">
+              {tipo === 'embarazo'
+                ? 'Fecha probable de parto'
+                : 'Fecha de nacimiento del bebé'}
+            </label>
+            <input
+              id="fecha"
+              type="date"
+              value={fecha}
+              onChange={(e) => setFecha(e.target.value)}
+            />
+          </div>
+        )}
 
         {error && (
           <p role="alert" className="texto-error">

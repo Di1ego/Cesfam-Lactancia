@@ -1,11 +1,11 @@
 [
   {
     "id": "embarazo-primer-trimestre",
-    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Primer trimestre de embarazo",
+    "titulo": "Primer trimestre de embarazo",
     "tipo": "embarazo",
     "semanaInicio": 0,
     "semanaFin": 13,
-    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "contenido": "Durante tu primer trimestre de embarazo (semanas 1 a 13), tu bebé atraviesa una etapa sorprendente de desarrollo. A las 4 semanas de la concepción, su cerebro comienza a formarse y sus células se multiplican aceleradamente; para el tercer mes, su sistema nervioso ya le permite realizar reflejos básicos como dar pequeñas pataditas y flectar sus brazos. Además, en las ecografías de este período se confirma la viabilidad de tu embarazo, se mide su longitud de la cabeza a las nalgas para calcular tu fecha probable de parto y se evalúa la translucencia nucal.\n\nAl mismo tiempo, tus pechos se transforman para amamantar gracias al aumento de hormonas como estrógenos y progesterona. Notarás que crecen de tamaño, las venas de la piel se vuelven más visibles y la areola se agranda y oscurece con pequeñas protuberancias para que tu recién nacido la encuentre fácilmente. No es necesario aplicar cremas ni hacer masajes para \"preparar\" tus pezones, pues tu cuerpo lo hace de forma natural; lo fundamental es informarte y ganar confianza en tu capacidad de amamantar.\n\nDesde el nacimiento, el contacto físico es clave para construir un apego seguro con tu bebé. Colocarlo sobre tu pecho desnudo inmediatamente al nacer (contacto piel con piel ininterrumpido durante la primera hora) le da tranquilidad, regula su temperatura y facilita su primera toma de leche. Esta cercanía, junto con un cuidado sensible y herramientas como el portabebé, fortalece su desarrollo emocional y crea un vínculo de afecto seguro."
   },
   {
     "id": "embarazo-segundo-trimestre",

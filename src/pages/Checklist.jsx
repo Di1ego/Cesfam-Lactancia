@@ -1,15 +1,34 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { EnlaceInicio } from '../components/EnlaceInicio'
 import { IconoCheck } from '../components/Iconos'
-import sintomas from '../content/sintomas.json'
+import todosLosSintomas from '../content/sintomas.json'
+import { leerRegistro } from '../lib/almacenamiento'
 import { hayAlerta } from '../lib/triage'
 import { usePageTitle } from '../lib/usePageTitle'
 
 export function Checklist() {
   usePageTitle('Síntomas')
   const navigate = useNavigate()
+  const registro = leerRegistro()
   const [seleccionados, setSeleccionados] = useState([])
+
+  if (!registro) {
+    return (
+      <div>
+        <EnlaceInicio />
+        <h1>Síntomas</h1>
+        <div className="tarjeta tarjeta-vacia">
+          <p>Primero cuéntanos tu situación para mostrarte el checklist adecuado.</p>
+          <Link className="btn btn-primario btn-bloque" to="/registro">
+            Ir a Registro
+          </Link>
+        </div>
+      </div>
+    )
+  }
+
+  const sintomas = todosLosSintomas.filter((s) => s.tipo === registro.tipo)
 
   function alternarSintoma(id) {
     setSeleccionados((actuales) =>
