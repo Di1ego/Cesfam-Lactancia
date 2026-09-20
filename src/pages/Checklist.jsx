@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { EnlaceInicio } from '../components/EnlaceInicio'
-import { IconoCheck } from '../components/Iconos'
+import { IconoCheck, IconoChevron } from '../components/Iconos'
 import todosLosSintomas from '../content/sintomas.json'
 import { leerRegistro } from '../lib/almacenamiento'
 import { hayAlerta } from '../lib/triage'
@@ -73,6 +73,29 @@ export function Checklist() {
           )
         })}
       </div>
+
+      {seleccionados.length > 0 && (
+        <div className="pila" style={{ marginBottom: 24 }}>
+          {sintomas
+            .filter((s) => seleccionados.includes(s.id) && s.porQuePasa)
+            .map((sintoma) => (
+              <details key={sintoma.id} className="info-sintoma">
+                <summary className="info-sintoma__resumen">
+                  <span>{sintoma.texto}</span>
+                  <IconoChevron className="info-sintoma__chevron" />
+                </summary>
+                <div className="info-sintoma__cuerpo">
+                  <p>
+                    <strong>Por qué pasa:</strong> {sintoma.porQuePasa}
+                  </p>
+                  <p>
+                    <strong>Qué puedes hacer:</strong> {sintoma.queHacer}
+                  </p>
+                </div>
+              </details>
+            ))}
+        </div>
+      )}
 
       <button type="button" className="btn btn-primario btn-bloque" onClick={manejarContinuar}>
         Continuar

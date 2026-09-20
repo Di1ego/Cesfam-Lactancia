@@ -277,6 +277,56 @@ legend {
   color: var(--color-primary-dark);
 }
 
+/* Información "por qué pasa / qué hacer" de cada síntoma marcado */
+.info-sintoma {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--sombra-suave);
+}
+
+.info-sintoma__resumen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  min-height: 44px;
+  font-weight: 700;
+  list-style: none;
+}
+
+.info-sintoma__resumen::-webkit-details-marker {
+  display: none;
+}
+
+.info-sintoma__chevron {
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+
+.info-sintoma[open] .info-sintoma__chevron {
+  transform: rotate(90deg);
+}
+
+.info-sintoma__cuerpo {
+  padding: 0 16px 16px;
+  border-top: 1px solid var(--color-border);
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.info-sintoma__cuerpo p {
+  margin: 0 0 10px;
+}
+
+.info-sintoma__cuerpo p:last-child {
+  margin-bottom: 0;
+}
+
 /* Aviso de alerta (Resultado) */
 .aviso-alerta {
   background: var(--color-accent-tint);

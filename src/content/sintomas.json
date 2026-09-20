@@ -45,90 +45,112 @@
     "id": "antojo",
     "texto": "Antojo",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Ocurre debido a los intensos cambios hormonales propios de la gestación. Es completamente falso que no satisfacer un antojo deje marcas en la piel de tu bebé.",
+    "queHacer": "Puedes disfrutarlos sin culpa, siempre y cuando no alteren ni interfieran con una alimentación variada, equilibrada y saludable."
   },
   {
     "id": "nauseas-vomitos",
     "texto": "Náuseas y vómitos",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Es una manifestación frecuente asociada a los cambios del embarazo.",
+    "queHacer": "Si los vómitos son muy intensos o persistentes, consulta con tu equipo de salud."
   },
   {
     "id": "reflujo",
     "texto": "Reflujo",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "[CONTENIDO PENDIENTE DE VALIDACIÓN]",
+    "queHacer": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
   },
   {
     "id": "acidez",
     "texto": "Acidez",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "[CONTENIDO PENDIENTE DE VALIDACIÓN]",
+    "queHacer": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
   },
   {
     "id": "estrenimiento-constipacion",
     "texto": "Estreñimiento o constipación",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Durante la gestación, el tránsito intestinal se vuelve más lento y el aumento de la presión intraabdominal dificulta la evacuación.",
+    "queHacer": "Cambia la postura al ir al baño: siéntate en el inodoro y sube ambos pies a un piso o escalón pequeño, así tus rodillas quedan más altas que tus caderas y el intestino se alinea para defecar con más facilidad.\nMantente activa: el ejercicio físico perinatal regular ayuda a estimular el intestino.\nEjercita tu piso pélvico: los ejercicios diarios de piso pélvico ayudan a evitar complicaciones asociadas al esfuerzo al defecar."
   },
   {
     "id": "dolor-epigastrico",
     "texto": "Dolor en la boca del estómago (epigastralgia)",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Puede relacionarse con cambios en tu hígado o en tu presión arterial durante el embarazo.",
+    "queHacer": "Avisa de esto en tu siguiente consulta en el CESFAM."
   },
   {
     "id": "cefalea-intensa",
     "texto": "Cefalea o dolor de cabeza intenso",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Un dolor de cabeza fuerte y persistente, a veces junto con zumbido en los oídos o ver luces o destellos, puede relacionarse con cambios en tu presión arterial.",
+    "queHacer": "Avisa de esto en tu siguiente consulta en el CESFAM."
   },
   {
     "id": "fatiga-cambios-energia",
     "texto": "Fatiga o cambios en la energía",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Es normal sentir mayor cansancio debido a las grandes demandas físicas y hormonales del cuerpo durante la gestación, especialmente en el primer y tercer trimestre.",
+    "queHacer": "Embarazo activo: caminatas y ejercicios adaptados a tu trimestre te darán más energía, te ayudarán a dormir mejor y reducirán tensiones.\nDescanso y autocuidado: prioriza lo importante, mantén una buena nutrición, busca espacios de recreación al aire libre y apóyate en tu pareja, familia o amigos."
   },
   {
     "id": "tension-pechos",
     "texto": "Tensión, sensibilidad o aumento de tamaño en pechos",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Los niveles de hormonas (estrógeno y progesterona) aumentan para preparar las glándulas mamarias para la lactancia. Verás que tus pechos crecen, las venas se marcan y la areola se oscurece.",
+    "queHacer": "Usa sostenes de algodón sin aros metálicos para evitar comprimir los conductos del pecho. No es necesario aplicar cremas especiales ni frotar los pezones para \"prepararlos\"."
   },
   {
     "id": "pesadez-piso-pelvico",
     "texto": "Molestia o pesadez en el piso pélvico",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "El piso pélvico (los músculos que sostienen la pelvis por abajo) recibe un gran aumento de peso y presión a medida que el bebé crece.",
+    "queHacer": "Practica ejercicios de fortalecimiento del piso pélvico (como los ejercicios de Kegel, contrayendo y relajando la zona) unos 10 minutos al día. Evita deportes de alto impacto o levantar cargas pesadas."
   },
   {
     "id": "hinchazon-edema",
     "texto": "Hinchazón o edema",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Ocurre por retención de líquidos, algo frecuente en el embarazo. Si aparece de forma repentina en cara, manos o piernas, puede relacionarse con cambios en tu presión arterial.",
+    "queHacer": "Si es leve y aparece al final del día, descansa con las piernas elevadas. Si es brusca o muy marcada, avisa de esto en tu siguiente consulta en el CESFAM."
   },
   {
     "id": "alzas-presion-arterial",
     "texto": "Alzas de presión arterial",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Ocurren por una elevación en la presión sanguínea (igual o mayor a 140/90 mmHg).",
+    "queHacer": "Avisa de esto en tu siguiente consulta en el CESFAM."
   },
   {
     "id": "dolor-torax",
     "texto": "Dolor de tórax o pecho",
     "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "Un dolor en el pecho puede tener distintas causas durante el embarazo.",
+    "queHacer": "Avisa de esto en tu siguiente consulta en el CESFAM."
   },
   {
     "id": "ictericia",
     "texto": "Coloración amarillenta en piel o mucosas (ictericia)",
     "alerta": false,
-    "tipo": "embarazo"
-  },
-  {
-    "id": "sangrado-vaginal",
-    "texto": "Sangrado o flujo sanguinolento vaginal",
-    "alerta": false,
-    "tipo": "embarazo"
+    "tipo": "embarazo",
+    "porQuePasa": "La piel o los ojos amarillos pueden deberse a una afección del hígado propia del embarazo llamada Colestasia Intrahepática.",
+    "queHacer": "Avisa de esto en tu siguiente consulta en el CESFAM."
   }
 ]
