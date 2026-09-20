@@ -9,50 +9,58 @@
   },
   {
     "id": "embarazo-segundo-trimestre",
-    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Segundo trimestre de embarazo",
+    "titulo": "Segundo trimestre de embarazo",
     "tipo": "embarazo",
     "semanaInicio": 14,
     "semanaFin": 27,
-    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "contenido": "Durante tu segundo trimestre de embarazo (semanas 14 a 27), tu bebé vivirá avances maravillosos. Hacia el cuarto mes, sus ojos y oídos se conectan con el cerebro, por lo que empieza a reaccionar a los sonidos del entorno y a las luces intensas. En el quinto mes, notarás sus movimientos con mayor claridad, los cuales se vuelven más variados y controlados a medida que madura el área cerebral que rige su motricidad. Ya en el sexto mes, el feto empieza a mostrar aprendizaje y respuesta frente a estímulos repetidos mientras se forman miles de conexiones neuronales, y entre las semanas 22 y 24 se realiza la ecografía de seguimiento para evaluar su desarrollo y salud integral.\n\nEn esta etapa, tus pechos continúan transformándose por acción de las hormonas estrógeno y progesterona para preparar la futura producción de leche. Notarás que crecen de tamaño, las venas se marcan sobre la piel y la areola se oscurece y muestra pequeñas protuberancias glandulares. Recuerda que no necesitas masajear ni endurecer tus pezones con cremas ni cepillos, ya que tu cuerpo se prepara solo de manera natural; la mejor forma de prepararte es resolver tus dudas con tu equipo de salud, informarte y confiar en tu capacidad de amamantar.\n\nConstruir un vínculo de apego seguro con tu bebé comienza desde la gestación y se consolida con el contacto físico y la atención afectuosa. El cerebro de tu recién nacido se nutre del cariño, la contención y el consuelo sensible a sus necesidades. Por ello, el contacto piel con piel inmediato durante la primera hora tras el parto es fundamental: ayuda a regular su temperatura y respiración, disminuye su estrés y sienta las bases para un amamantamiento sereno y exitoso."
   },
   {
     "id": "embarazo-tercer-trimestre",
-    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Tercer trimestre de embarazo",
+    "titulo": "Tercer trimestre de embarazo",
     "tipo": "embarazo",
     "semanaInicio": 28,
     "semanaFin": 42,
-    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "contenido": "Durante tu tercer trimestre de embarazo (semanas 28 a 40), tu bebé entra en la etapa final de maduración y preparación para nacer. A partir del séptimo mes, ya se detecta actividad eléctrica en su cerebro y los circuitos neuronales se refinan para organizar sus sentidos. Desde la semana 33, notarás claramente sus patrones de movimiento (debes percibir al menos 6 movimientos en una hora tras almorzar); además, entre las semanas 30 y 34 se realiza la ecografía de tercer trimestre para evaluar la posición de tu bebé, la placenta y el cordón umbilical.\n\nAl mismo tiempo, tus pechos completan su preparación por acción de las hormonas estrógeno y progesterona. Notarás que aumentan de volumen, las venas sobre la piel se hacen más prominentes y la areola se agranda y oscurece, mostrando pequeñas protuberancias (glándulas de Montgomery) que servirán de guía visual para tu recién nacido. Recuerda que no necesitas aplicar cremas, masajes ni frotar tus pezones con cepillos, ya que tu cuerpo se prepara solo de manera natural; la mejor preparación es resolver tus dudas, informarte y confiar en tu capacidad de amamantar.\n\nEl parto dará inicio a la construcción del apego seguro y al desarrollo emocional de tu bebé. Practicar el contacto piel con piel inmediato durante su primera hora de vida (la \"hora sagrada\") le ayuda a regular su temperatura, respiración y glucosa, disminuye su estrés y estimula la salida de las primeras gotas de calostro y su primera succión instintiva. Esta cercanía, combinada con la atención afectuosa a sus necesidades y el consuelo de su llanto, le dará la certeza de que está protegido."
   },
   {
-    "id": "bebe-recien-nacido",
-    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Recién nacido (0 a 1 mes)",
+    "id": "bebe-0-a-2-meses",
+    "titulo": "0 a 2 meses",
     "tipo": "bebe",
     "mesInicio": 0,
-    "mesFin": 0,
-    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "mesFin": 1,
+    "contenido": "Durante sus dos primeros meses, tu bebé se adapta al mundo apoyándose en reflejos naturales como la succión y la búsqueda para alimentarse. En sus primeras semanas reconocerá tu voz y tus gestos; hacia los 2 meses aparecerá su primera sonrisa social en respuesta a tus caricias, empezará a emitir sonidos suaves (\"ah, eh, ugh\"), fijará su mirada en tu rostro y, al estar boca abajo, intentará levantar levemente su cabeza.\n\nEn los primeros días, notarás que tus pechos se vuelven más llenos, firmes o sensibles con el aumento del flujo sanguíneo y la bajada de la leche. No necesitas preparar tus pezones con cremas ni masajes especiales; lo indispensable es asegurar un acople profundo (abarcando el pezón y gran parte de la areola) y amamantar a libre demanda, ofreciéndole el pecho cada vez que muestre señales tempranas de hambre, como chuparse los puños o abrir su boca.\n\nDesde el nacimiento, el contacto piel con piel ininterrumpido (especialmente durante su primera hora de vida) ayuda a calmar a tu bebé, regula su temperatura, estabiliza su respiración y estimula su desarrollo cerebral. Sostenerlo en brazos, responder pronto a su llanto y acurrucarlo cerquita tuyo no lo \"malcría\"; al contrario, le demuestra que es un lugar seguro, disminuye su estrés y construye un vínculo de afecto y confianza para toda la vida."
   },
   {
-    "id": "bebe-1-a-3-meses",
-    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] 1 a 3 meses",
+    "id": "bebe-2-a-4-meses",
+    "titulo": "2 a 4 meses",
     "tipo": "bebe",
-    "mesInicio": 1,
-    "mesFin": 2,
-    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "mesInicio": 2,
+    "mesFin": 3,
+    "contenido": "Entre los 2 y 4 meses, tu bebé avanzará notablemente en su desarrollo motor, social y comunicativo. Al ponerlo boca abajo (posición prona) levantará su cabeza a 45° apoyándose en los codos, mantendrá sus manos más abiertas, las juntará en el centro para llevárselas a la boca y, hacia los 4 meses, comenzará a tomar objetos como un cascabel. Socialmente, afianzará su sonrisa social en respuesta a tus caricias y miradas, emitirá sonidos suaves como \"ah, eh, ugh\" y dirá sus primeros \"agú\" o gorgojeos para comunicarse contigo.\n\nEn su alimentación, la recomendación principal es mantener lactancia materna exclusiva a libre demanda, ofreciéndole el pecho ante sus señales tempranas de hambre (como buscar el pecho o chuparse los puños). En cada toma, asegúrate de que vacíe completamente un pecho antes de ofrecerle el otro, lo que le permite recibir la leche del final rica en grasas. Entre los 2 y 3 meses es normal que enfrente una \"crisis de lactancia\": durante 3 a 5 días pedirá pecho muy seguido porque está creciendo rápido y necesita aumentar tu producción de leche, por lo que no debes pensar que te quedaste sin leche.\n\nPara apoyar su crecimiento, colócalo boca abajo sobre una superficie firme unos 30 minutos al día repartidos mientras esté despierto para fortalecer su cuello, mantén su dosis diaria de vitamina D (400 UI) e inicia la suplementación con hierro a los 4 meses si toma pecho exclusivo. Acunarlo en brazos, usar el portabebé y responder con cariño a su llanto ayuda a regular su estrés, le da seguridad emocional y fortalece un vínculo de afecto para toda la vida."
   },
   {
-    "id": "bebe-3-a-6-meses",
-    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] 3 a 6 meses",
+    "id": "bebe-4-a-6-meses",
+    "titulo": "4 a 6 meses",
     "tipo": "bebe",
-    "mesInicio": 3,
+    "mesInicio": 4,
     "mesFin": 5,
-    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "contenido": "Entre los 4 y 6 meses, tu bebé logrará grandes avances en sus movimientos y en la forma en que se relaciona contigo. Al ponerlo boca abajo, levantará la cabeza y el pecho apoyándose en sus antebrazos y empezará a liberar una mano para alcanzar objetos de su interés; además, aprenderá a girar sobre sí mismo (de boca abajo a boca arriba) y, hacia los 6 meses, logrará mantenerse sentado durante unos segundos con apoyo. Moverá un cascabel con intención, se lo llevará a la boca y, socialmente, se reirá a carcajadas, disfrutará mirarse en el espejo, dirá \"agú\", emitirá sonidos vibrantes con la boca (\"rrr\") y buscará responder activamente a tu voz.\n\nEn cuanto a su alimentación, la recomendación de los organismos de salud es mantener lactancia materna exclusiva y a libre demanda hasta los 6 meses cumplidos (180 días), sin ofrecerle agua, agüitas de hierbas, jugos ni otros alimentos antes de este tiempo. Al cumplir 5 meses asistirás a la consulta nutricional, donde el profesional evaluará su curva de crecimiento y te entregará pautas anticipatorias para preparar la correcta introducción de sus primeras papillas cuando cumpla los 6 meses.\n\nPara acompañar su desarrollo de manera integral, mantén su dosis diaria de vitamina D (400 UI) y la suplementación con hierro (1 mg/kg/día) si toma pecho exclusivo. Colócalo boca abajo al menos 30 minutos al día (repartidos mientras esté despierto) sobre una superficie firme como una alfombra de goma para fortalecer sus músculos, realiza la higiene de sus encías y lengua una vez al día con un paño de tela o dedal de silicona, y evita por completo la exposición a pantallas."
   },
   {
     "id": "bebe-6-a-12-meses",
-    "titulo": "[CONTENIDO PENDIENTE DE VALIDACIÓN] 6 a 12 meses",
+    "titulo": "6 a 12 meses",
     "tipo": "bebe",
     "mesInicio": 6,
     "mesFin": 11,
-    "contenido": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "contenido": "Entre los 6 y 12 meses, tu bebé explorará el mundo con gran autonomía. Aprenderá a mantenerse sentado sin apoyo, a reptar, gatear y, hacia el año, a ponerse de pie y dar sus primeros pasos afirmándose de los muebles. Pasará objetos de una mano a otra, usará sus dedos en forma de \"pinza\" para tomar trocitos de comida, dirá sus primeros disílabos (\"ma-ma\", \"pa-pa\"), aplaudirá, hará \"chao\" con la mano y responderá a su nombre. En esta etapa es normal que empiece a desconocer a personas extrañas y busque tu refugio cuando sienta inseguridad.\n\nA los 6 meses (180 días) llega el momento de iniciar las primeras papillas de verduras con carne magra, un toque de aceite vegetal y fruta de postre, sin agregarles jamás sal, azúcar ni miel. Comenzará con el almuerzo en consistencia puré y, a los 8 meses, sumará la cena; hacia los 10 meses ya podrá comer alimentos molidos con tenedor o trocitos blandos para comer con sus manitos. Es fundamental que continúes amamantándolo a libre demanda, ya que la leche materna sigue siendo su alimento principal y la mejor fuente de nutrición y afecto.\n\nPara acompañar su crecimiento, ofrécele agua pura en vaso pequeño, mantén su dosis diaria de vitamina D (400 UI) y su suplemento de hierro (1 mg/kg/día) hasta el año si toma pecho exclusivo. Cepilla sus primeros dientecitos con una pasta adecuada, evita las pantallas por completo y mantén un ambiente tranquilo a la hora de comer. Recuerda que la alimentación es una instancia de aprendizaje y vínculo, por lo que debes respetar sus señales de hambre y saciedad sin forzarlo a comer."
+  },
+  {
+    "id": "bebe-12-a-24-meses",
+    "titulo": "12 a 24 meses",
+    "tipo": "bebe",
+    "mesInicio": 12,
+    "mesFin": 23,
+    "contenido": "Entre el primer y el segundo año (12 a 24 meses), tu bebé dará un enorme salto en su autonomía física, lenguaje y emociones. Aprenderá a caminar solo, agacharse, ponerse de pie sin apoyo, subir escalones afirmado de tu mano e intentar correr. Desarrollará una pinza fina con sus dedos para tomar trocitos pequeños, armará torres de cubos, beberá de un vaso y empezará a manipular el tenedor. Dirá sus primeras palabras con sentido (como \"mamá\", \"papá\" o nombres de objetos), entenderá instrucciones sencillas, señalará con su dedito lo que le interesa e imitará tus gestos dando besos y abrazos. En esta etapa es normal que aparezca cierta frustración o pataletas al no poder expresar aún todo lo que quiere, por lo que requerirá de tu paciencia y contención afectuosa.\n\nEn su alimentación, se incorporará completamente a la mesa familiar comiendo los mismos alimentos saludables del hogar en cuatro tiempos (desayuno, almuerzo, once y cena), en trozos blandos o molidos que pueda comer solo. Notarás que su apetito disminuye un poco debido a que su ritmo de crecimiento se hace más lento (\"anorexia fisiológica\"). La recomendación oficial de la OMS y el MINSAL es continuar con la lactancia materna a libre demanda hasta los 2 años o más, ya que le sigue aportando valiosos nutrientes, defensas inmunológicas, hidratación y seguridad emocional. Evita por completo darle golosinas, azúcares, sal añadida, miel, bebidas o alimentos ultraprocesados con sellos.\n\nPara acompañar su crecimiento, estimula su independencia dejándolo comer por sí mismo y jugando activamente con él. Cepilla sus dientes al menos dos veces al día con una pequeña cantidad de pasta dental fluorada (de 1000 a 1500 ppm, del tamaño de un grano de arroz), evita exponerlo a pantallas y asiste a sus controles de salud infantil de los 12, 18 y 24 meses para vigilar su desarrollo psicomotor y nutricional."
   }
 ]
