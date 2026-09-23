@@ -79,7 +79,10 @@ export function Checklist() {
           {sintomas
             .filter((s) => seleccionados.includes(s.id) && s.porQuePasa)
             .map((sintoma) => (
-              <details key={sintoma.id} className="info-sintoma">
+              <details
+                key={sintoma.id}
+                className={'info-sintoma' + (sintoma.alerta ? ' info-sintoma--alerta' : '')}
+              >
                 <summary className="info-sintoma__resumen">
                   <span>{sintoma.texto}</span>
                   <IconoChevron className="info-sintoma__chevron" />

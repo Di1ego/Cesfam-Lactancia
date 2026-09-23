@@ -285,6 +285,12 @@ legend {
   box-shadow: var(--sombra-suave);
 }
 
+/* Síntomas que conviene evaluar en la CLAC (alerta: true) se destacan en rosado */
+.info-sintoma--alerta {
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary-tint);
+}
+
 .info-sintoma__resumen {
   display: flex;
   align-items: center;

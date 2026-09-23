@@ -3,43 +3,75 @@
     "id": "dolor-al-amamantar",
     "texto": "Dolor al amamantar",
     "alerta": true,
-    "tipo": "bebe"
+    "tipo": "bebe",
+    "porQuePasa": "Ocurre principalmente cuando tu bebé agarra solo la punta del pezón (acople superficial) o cuando el pezón permanece húmedo por tiempo prolongado, lo que genera fricción o heridas en la piel.",
+    "queHacer": "Revisa y corrige el acople asegurando que tu bebé abra grande la boca y abarque gran parte de la areola. Tras amamantar, aplica unas gotas de tu propia leche sobre la lesión y déjala secar al aire. Recuerda: amamantar no debe doler. Evalúalo con un profesional en la Clínica de Lactancia (CLAC) de tu CESFAM."
   },
   {
     "id": "grietas-pezon",
     "texto": "Grietas del pezón",
     "alerta": true,
-    "tipo": "bebe"
+    "tipo": "bebe",
+    "porQuePasa": "Ocurren principalmente cuando tu bebé agarra solo la punta del pezón (acople superficial) o cuando el pezón permanece húmedo por tiempo prolongado, lo que genera fricción o heridas en la piel.",
+    "queHacer": "Revisa y corrige el acople asegurando que tu bebé abra grande la boca y abarque gran parte de la areola. Tras amamantar, aplica unas gotas de tu propia leche sobre la lesión y déjala secar al aire. Recuerda: amamantar no debe doler. Evalúalo con un profesional en la Clínica de Lactancia (CLAC) de tu CESFAM."
   },
   {
     "id": "congestion-mamaria",
-    "texto": "Congestión mamaria (o ingurgitación)",
+    "texto": "Congestión mamaria (pechos muy llenos, duros o dolorosos)",
+    "alerta": true,
+    "tipo": "bebe",
+    "porQuePasa": "Sucede por la acumulación de leche y líquido en el pecho cuando no se vacía de forma frecuente o eficaz, haciendo que la areola se ponga rígida y dificulte el agarre del bebé.",
+    "queHacer": "Amamanta a libre demanda. Antes de la toma, haz masajes suaves en forma circular hacia el pezón y presiona con los dedos alrededor de la areola hacia las costillas por 1 a 2 minutos para ablandarla y facilitar el acople (técnica de presión inversa suavizante). También puedes hacer extracción manual hasta sentir alivio. Evalúalo con un profesional en la CLAC de tu CESFAM si la tensión o el dolor persisten."
+  },
+  {
+    "id": "mastitis",
+    "texto": "Mastitis (pecho rojo, caliente, hinchado o con fiebre)",
+    "alerta": true,
+    "tipo": "bebe",
+    "porQuePasa": "Es una inflamación del tejido mamario que puede avanzar a infección, provocada por una congestión no resuelta o grietas en el pezón.",
+    "queHacer": "No dejes de amamantar: el vaciamiento del pecho es fundamental para la recuperación. Evalúalo pronto con un profesional en la CLAC o en la consulta médica de tu CESFAM."
+  },
+  {
+    "id": "obstruccion-conductos",
+    "texto": "Obstrucción de conductos mamarios (bulto duro en el pecho)",
+    "alerta": true,
+    "tipo": "bebe",
+    "porQuePasa": "Ocurre por la acumulación o retención de leche en un sector del pecho, o por la inflamación de la salida de un conducto en la punta del pezón.",
+    "queHacer": "Aplica calor húmedo suave en la zona antes de vaciar el pecho. Haz un masaje rítmico en forma circular desde la zona dura hacia la salida del pezón mientras amamantas o te extraes leche. Evalúalo con un profesional en la CLAC de tu CESFAM para asegurar un drenaje completo y prevenir una infección."
+  },
+  {
+    "id": "dificultad-acople",
+    "texto": "Dificultad en el acople o rechazo del pecho",
+    "alerta": true,
+    "tipo": "bebe",
+    "porQuePasa": "Puede suceder por posturas incómodas, uso de mamaderas o chupetes, pezón congestionado o características en la boca del bebé.",
+    "queHacer": "Practica el contacto piel con piel para calmar a tu bebé y favorecer el acople espontáneo. Prueba sostener tu pecho en forma de \"C\" o \"sándwich\" al ofrecerlo. Evalúalo con un profesional en la CLAC de tu CESFAM para revisar la técnica y la boca de tu bebé."
+  },
+  {
+    "id": "incremento-ponderal-insuficiente",
+    "texto": "El bebé no sube de peso (incremento ponderal insuficiente)",
     "alerta": true,
     "tipo": "bebe"
   },
   {
-    "id": "fiebre",
-    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Fiebre",
+    "id": "perdida-critica-peso",
+    "texto": "Pérdida crítica de peso del bebé",
     "alerta": true,
     "tipo": "bebe"
   },
   {
-    "id": "pecho-rojo-caliente",
-    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Pecho rojo, caliente e hinchado",
-    "alerta": true,
-    "tipo": "bebe"
-  },
-  {
-    "id": "bebe-no-sube-de-peso",
-    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] El bebé no sube de peso",
+    "id": "formula-inicio",
+    "texto": "Le di fórmula al bebé por mi cuenta o me la indicaron fuera del CESFAM",
     "alerta": true,
     "tipo": "bebe"
   },
   {
     "id": "poca-produccion-leche",
-    "texto": "[CONTENIDO PENDIENTE DE VALIDACIÓN] Siento que tengo poca leche",
+    "texto": "Siento que tengo poca leche",
     "alerta": false,
-    "tipo": "bebe"
+    "tipo": "bebe",
+    "porQuePasa": "A menudo se debe a los brotes de crecimiento del bebé (frecuentes a las 3-6 semanas, los 3 meses y al año), donde pide mamar muy seguido durante 3 a 5 días para estimular y aumentar tu producción.",
+    "queHacer": "Amamanta a libre demanda, respondiendo a sus señales tempranas de hambre, sin limitar horarios ni dar fórmula sin indicación médica. Evalúalo con un profesional en la CLAC de tu CESFAM si notas que tu bebé no gana peso o moja pocos pañales."
   },
   {
     "id": "antojo",
@@ -47,7 +79,7 @@
     "alerta": false,
     "tipo": "embarazo",
     "porQuePasa": "Ocurre debido a los intensos cambios hormonales propios de la gestación. Es completamente falso que no satisfacer un antojo deje marcas en la piel de tu bebé.",
-    "queHacer": "Puedes disfrutarlos sin culpa, siempre y cuando no alteren ni interfieran con una alimentación variada, equilibrada y saludable."
+    "queHacer": "Puedes disfrutarlos sin culpa, siempre y cuando no alteren ni interfieran con una alimentación variada, equilibrada y saludable. Coméntalo con la nutricionista o matrona en tus controles del CESFAM."
   },
   {
     "id": "nauseas-vomitos",
@@ -55,23 +87,7 @@
     "alerta": false,
     "tipo": "embarazo",
     "porQuePasa": "Es una manifestación frecuente asociada a los cambios del embarazo.",
-    "queHacer": "Si los vómitos son muy intensos o persistentes, consulta con tu equipo de salud."
-  },
-  {
-    "id": "reflujo",
-    "texto": "Reflujo",
-    "alerta": false,
-    "tipo": "embarazo",
-    "porQuePasa": "[CONTENIDO PENDIENTE DE VALIDACIÓN]",
-    "queHacer": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
-  },
-  {
-    "id": "acidez",
-    "texto": "Acidez",
-    "alerta": false,
-    "tipo": "embarazo",
-    "porQuePasa": "[CONTENIDO PENDIENTE DE VALIDACIÓN]",
-    "queHacer": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "queHacer": "Si los vómitos son muy frecuentes o te impiden retener líquidos, coméntalo con la matrona o médico en tu CESFAM."
   },
   {
     "id": "estrenimiento-constipacion",
@@ -79,7 +95,7 @@
     "alerta": false,
     "tipo": "embarazo",
     "porQuePasa": "Durante la gestación, el tránsito intestinal se vuelve más lento y el aumento de la presión intraabdominal dificulta la evacuación.",
-    "queHacer": "Cambia la postura al ir al baño: siéntate en el inodoro y sube ambos pies a un piso o escalón pequeño, así tus rodillas quedan más altas que tus caderas y el intestino se alinea para defecar con más facilidad.\nMantente activa: el ejercicio físico perinatal regular ayuda a estimular el intestino.\nEjercita tu piso pélvico: los ejercicios diarios de piso pélvico ayudan a evitar complicaciones asociadas al esfuerzo al defecar."
+    "queHacer": "Cambia la postura al ir al baño: siéntate en el inodoro y sube ambos pies a un piso o escalón pequeño, así tus rodillas quedan más altas que tus caderas y el intestino se alinea para defecar con más facilidad.\nMantente activa: el ejercicio físico perinatal regular ayuda a estimular el intestino.\nEjercita tu piso pélvico: los ejercicios diarios de piso pélvico ayudan a evitar complicaciones asociadas al esfuerzo al defecar.\nSi persiste o genera molestia intensa, coméntalo en tu próximo control del CESFAM."
   },
   {
     "id": "dolor-epigastrico",
@@ -103,7 +119,7 @@
     "alerta": false,
     "tipo": "embarazo",
     "porQuePasa": "Es normal sentir mayor cansancio debido a las grandes demandas físicas y hormonales del cuerpo durante la gestación, especialmente en el primer y tercer trimestre.",
-    "queHacer": "Embarazo activo: caminatas y ejercicios adaptados a tu trimestre te darán más energía, te ayudarán a dormir mejor y reducirán tensiones.\nDescanso y autocuidado: prioriza lo importante, mantén una buena nutrición, busca espacios de recreación al aire libre y apóyate en tu pareja, familia o amigos."
+    "queHacer": "Embarazo activo: caminatas y ejercicios adaptados a tu trimestre te darán más energía, te ayudarán a dormir mejor y reducirán tensiones.\nDescanso y autocuidado: prioriza lo importante, mantén una buena nutrición, busca espacios de recreación al aire libre y apóyate en tu pareja, familia o amigos.\nComéntalo con tu matrona en el CESFAM para revisar tus exámenes y descartar anemia."
   },
   {
     "id": "tension-pechos",
@@ -111,7 +127,7 @@
     "alerta": false,
     "tipo": "embarazo",
     "porQuePasa": "Los niveles de hormonas (estrógeno y progesterona) aumentan para preparar las glándulas mamarias para la lactancia. Verás que tus pechos crecen, las venas se marcan y la areola se oscurece.",
-    "queHacer": "Usa sostenes de algodón sin aros metálicos para evitar comprimir los conductos del pecho. No es necesario aplicar cremas especiales ni frotar los pezones para \"prepararlos\"."
+    "queHacer": "Usa sostenes de algodón sin aros metálicos para evitar comprimir los conductos del pecho. No es necesario aplicar cremas especiales ni frotar los pezones para \"prepararlos\". Coméntalo con tu matrona en tus controles prenatales."
   },
   {
     "id": "pesadez-piso-pelvico",
