@@ -78,7 +78,7 @@ export function Registro() {
     <div>
       <EnlaceInicio />
       <div className="encabezado">
-        <h1 className="encabezado__titulo">Cuéntanos tu situación</h1>
+        <h1 className="encabezado__titulo">📝 Cuéntanos tu situación</h1>
         <p className="encabezado__subtitulo">Así podemos mostrarte contenido para tu etapa.</p>
       </div>
 

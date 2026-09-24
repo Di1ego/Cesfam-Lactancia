@@ -8,7 +8,7 @@ export function Inicio() {
   return (
     <div>
       <div className="encabezado">
-        <h1 className="encabezado__titulo">Clínica de Lactancia Materna (CLAC)</h1>
+        <h1 className="encabezado__titulo">🤱 Clínica de Lactancia Materna (CLAC)</h1>
         <p className="encabezado__subtitulo">{config.avisoInicio}</p>
       </div>
 

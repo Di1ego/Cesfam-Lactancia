@@ -3,6 +3,7 @@ import './Camino.css'
 import etapas from '../content/etapas.json'
 import { EnlaceInicio } from '../components/EnlaceInicio'
 import { IconoActual, IconoCheck, IconoChevron, IconoGota } from '../components/Iconos'
+import { TextoFormateado } from '../components/TextoFormateado'
 import { leerRegistro } from '../lib/almacenamiento'
 import { calcularEtapaActualId } from '../lib/etapa'
 import { usePageTitle } from '../lib/usePageTitle'
@@ -37,7 +38,7 @@ export function Camino() {
     <div>
       <EnlaceInicio />
       <div className="encabezado">
-        <h1 className="encabezado__titulo">Tu camino</h1>
+        <h1 className="encabezado__titulo">🗺️ Tu camino</h1>
         <p className="encabezado__subtitulo">
           {registro.tipo === 'embarazo'
             ? 'Etapa a etapa, según tu semana de embarazo.'
@@ -85,7 +86,9 @@ export function Camino() {
                   </div>
                   <IconoChevron className="camino-tarjeta__chevron" />
                 </summary>
-                <p className="camino-tarjeta__contenido">{etapa.contenido}</p>
+                <p className="camino-tarjeta__contenido">
+                  <TextoFormateado texto={etapa.contenido} />
+                </p>
               </details>
             </li>
           )

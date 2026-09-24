@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { EnlaceInicio } from '../components/EnlaceInicio'
 import { IconoCheck, IconoChevron } from '../components/Iconos'
+import { TextoFormateado } from '../components/TextoFormateado'
 import todosLosSintomas from '../content/sintomas.json'
 import { leerRegistro } from '../lib/almacenamiento'
 import { hayAlerta } from '../lib/triage'
@@ -50,7 +51,7 @@ export function Checklist() {
     <div>
       <EnlaceInicio />
       <div className="encabezado">
-        <h1 className="encabezado__titulo">¿Has tenido alguno de estos síntomas?</h1>
+        <h1 className="encabezado__titulo">🩺 ¿Has tenido alguno de estos síntomas?</h1>
         <p className="encabezado__subtitulo">
           Marca todo lo que te esté pasando. Puedes elegir más de una opción.
         </p>
@@ -89,10 +90,10 @@ export function Checklist() {
                 </summary>
                 <div className="info-sintoma__cuerpo">
                   <p>
-                    <strong>Por qué pasa:</strong> {sintoma.porQuePasa}
+                    <strong>Por qué pasa:</strong> <TextoFormateado texto={sintoma.porQuePasa} />
                   </p>
                   <p>
-                    <strong>Qué puedes hacer:</strong> {sintoma.queHacer}
+                    <strong>Qué puedes hacer:</strong> <TextoFormateado texto={sintoma.queHacer} />
                   </p>
                 </div>
               </details>

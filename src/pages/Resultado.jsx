@@ -15,7 +15,7 @@ export function Resultado() {
     <div>
       <EnlaceInicio />
       <div className="aviso-alerta">
-        <h1>Te recomendamos pedir hora prioritaria</h1>
+        <h1>💛 Te recomendamos pedir hora prioritaria</h1>
         <p>
           Por lo que nos contaste, es mejor que converses pronto con la Clínica
           de Lactancia (CLAC).

@@ -148,3 +148,7 @@
   padding-top: 10px;
   white-space: pre-line;
 }
+
+.camino-tarjeta__contenido strong {
+  color: var(--color-primary-dark);
+}

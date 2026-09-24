@@ -5,7 +5,7 @@
     "alerta": true,
     "tipo": "bebe",
     "porQuePasa": "Ocurre principalmente cuando tu bebé agarra solo la punta del pezón (acople superficial) o cuando el pezón permanece húmedo por tiempo prolongado, lo que genera fricción o heridas en la piel.",
-    "queHacer": "Revisa y corrige el acople asegurando que tu bebé abra grande la boca y abarque gran parte de la areola. Tras amamantar, aplica unas gotas de tu propia leche sobre la lesión y déjala secar al aire. Recuerda: amamantar no debe doler. Evalúalo con un profesional en la Clínica de Lactancia (CLAC) de tu CESFAM."
+    "queHacer": "Revisa y corrige el acople asegurando que tu bebé abra grande la boca y abarque gran parte de la areola. Tras amamantar, aplica unas gotas de tu propia leche sobre la lesión y déjala secar al aire. Recuerda: **amamantar no debe doler**. Evalúalo con un profesional en la Clínica de Lactancia (CLAC) de tu CESFAM."
   },
   {
     "id": "grietas-pezon",
@@ -13,7 +13,7 @@
     "alerta": true,
     "tipo": "bebe",
     "porQuePasa": "Ocurren principalmente cuando tu bebé agarra solo la punta del pezón (acople superficial) o cuando el pezón permanece húmedo por tiempo prolongado, lo que genera fricción o heridas en la piel.",
-    "queHacer": "Revisa y corrige el acople asegurando que tu bebé abra grande la boca y abarque gran parte de la areola. Tras amamantar, aplica unas gotas de tu propia leche sobre la lesión y déjala secar al aire. Recuerda: amamantar no debe doler. Evalúalo con un profesional en la Clínica de Lactancia (CLAC) de tu CESFAM."
+    "queHacer": "Revisa y corrige el acople asegurando que tu bebé abra grande la boca y abarque gran parte de la areola. Tras amamantar, aplica unas gotas de tu propia leche sobre la lesión y déjala secar al aire. Recuerda: **amamantar no debe doler**. Evalúalo con un profesional en la Clínica de Lactancia (CLAC) de tu CESFAM."
   },
   {
     "id": "congestion-mamaria",
@@ -29,7 +29,7 @@
     "alerta": true,
     "tipo": "bebe",
     "porQuePasa": "Es una inflamación del tejido mamario que puede avanzar a infección, provocada por una congestión no resuelta o grietas en el pezón.",
-    "queHacer": "No dejes de amamantar: el vaciamiento del pecho es fundamental para la recuperación. Evalúalo pronto con un profesional en la CLAC o en la consulta médica de tu CESFAM."
+    "queHacer": "**No dejes de amamantar**: el vaciamiento del pecho es fundamental para la recuperación. Evalúalo pronto con un profesional en la CLAC o en la consulta médica de tu CESFAM."
   },
   {
     "id": "obstruccion-conductos",

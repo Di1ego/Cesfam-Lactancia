@@ -333,6 +333,10 @@ legend {
   margin-bottom: 0;
 }
 
+.info-sintoma__cuerpo strong {
+  color: var(--color-primary-dark);
+}
+
 /* Aviso de alerta (Resultado) */
 .aviso-alerta {
   background: var(--color-accent-tint);

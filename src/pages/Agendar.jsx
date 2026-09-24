@@ -12,7 +12,7 @@ export function Agendar() {
     <div>
       <EnlaceInicio />
       <div className="encabezado">
-        <h1 className="encabezado__titulo">Cómo agendar hora en CLAC</h1>
+        <h1 className="encabezado__titulo">📅 Cómo agendar hora en CLAC</h1>
       </div>
 
       <div className="tarjeta">
