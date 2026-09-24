@@ -20,11 +20,6 @@ export function Agendar() {
         <p>{config.horariosAtencion}</p>
       </div>
 
-      <div className="tarjeta">
-        <h2>Requisitos</h2>
-        <p>{config.requisitosAgendar}</p>
-      </div>
-
       <a className="btn btn-primario btn-bloque" href={enlaceWhatsapp} target="_blank" rel="noreferrer">
         <IconoChat />
         Agendar por WhatsApp

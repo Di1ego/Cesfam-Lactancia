@@ -1,10 +1,9 @@
 {
   "whatsapp": {
-    "numero": "[CONTENIDO PENDIENTE DE VALIDACIÓN]",
-    "mensajePrellenado": "[CONTENIDO PENDIENTE DE VALIDACIÓN]",
-    "mensajePrellenadoPrioritario": "[CONTENIDO PENDIENTE DE VALIDACIÓN]"
+    "numero": "56978600554",
+    "mensajePrellenado": "Hola! me gustaría agendar una hora de clínica de lactancia.",
+    "mensajePrellenadoPrioritario": "Hola! hice el formulario de la página de CLAC y según los síntomas soy prioritaria a una hora de clínica de lactancia. Quiero recibir más información."
   },
-  "horariosAtencion": "[CONTENIDO PENDIENTE DE VALIDACIÓN]",
-  "requisitosAgendar": "[CONTENIDO PENDIENTE DE VALIDACIÓN]",
+  "horariosAtencion": "El WhatsApp de la Clínica de Lactancia atiende de 8:00 a 16:00 horas.",
   "avisoInicio": "Esta página entrega orientación y no reemplaza la atención de salud."
 }

@@ -20,7 +20,11 @@ export function Resultado() {
           Por lo que nos contaste, es mejor que converses pronto con la Clínica
           de Lactancia (CLAC).
         </p>
-        <p>[CONTENIDO PENDIENTE DE VALIDACIÓN]</p>
+        <p>
+          Los síntomas que marcaste son de prioridad para abordar en una
+          clínica de lactancia. En este número puedes agendar una hora
+          directamente 🩷
+        </p>
 
         <a className="btn btn-acento btn-bloque" href={enlaceWhatsapp} target="_blank" rel="noreferrer">
           <IconoChat />
