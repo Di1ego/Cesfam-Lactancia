@@ -51,19 +51,25 @@
     "id": "incremento-ponderal-insuficiente",
     "texto": "El bebé no sube de peso (incremento ponderal insuficiente)",
     "alerta": true,
-    "tipo": "bebe"
+    "tipo": "bebe",
+    "porQuePasa": "Tras la baja normal de los primeros días, tu bebé debe subir al menos 20 gramos al día durante su primer mes. Si no está subiendo lo esperado, suele deberse a un acople superficial, tomas muy cortas, poca frecuencia de amamantamiento o a que se duerme antes de recibir la leche del final de la mamada (la más rica en grasas).",
+    "queHacer": "Amamanta a libre demanda (de 8 a 12 veces en 24 horas), asegurando que tu bebé vacíe por completo un pecho antes de ofrecerle el otro. Revisa que el acople sea profundo (boca muy abierta, abarcando gran parte de la areola). Si se necesita un suplemento, la primera opción es siempre **tu propia leche materna extraída**. Evalúalo con un profesional en la CLAC o en control de salud infantil de tu CESFAM dentro de 48 a 72 horas."
   },
   {
     "id": "perdida-critica-peso",
-    "texto": "Pérdida crítica de peso del bebé",
+    "texto": "Mi bebé ha bajado mucho de peso",
     "alerta": true,
-    "tipo": "bebe"
+    "tipo": "bebe",
+    "porQuePasa": "Es normal que los recién nacidos pierdan entre un 7% y un 10% de su peso de nacimiento en los primeros 3 a 4 días de vida. Si pierde más del 10%, o no ha recuperado su peso inicial a los 10-15 días, puede indicar baja transferencia de leche o riesgo de deshidratación.",
+    "queHacer": "Observa a tu bebé: si está activo, si su boca está húmeda y si moja al menos 5 a 6 pañales al día con orina clara. No le des agua ni fórmula por tu cuenta sin evaluación profesional. Una pérdida de peso mayor al 10% **no significa que debas dejar la lactancia**, pero sí evaluarlo pronto con la matrona, médico o en la CLAC de tu CESFAM."
   },
   {
     "id": "formula-inicio",
     "texto": "Le di fórmula al bebé por mi cuenta o me la indicaron fuera del CESFAM",
     "alerta": true,
-    "tipo": "bebe"
+    "tipo": "bebe",
+    "porQuePasa": "Ante dudas, llanto frecuente del bebé o indicaciones de centros privados u hospitales, muchas familias introducen fórmula láctea. Darla sin necesidad médica puede reducir tu producción si el bebé succiona menos veces el pecho.",
+    "queHacer": "Si quieres volver a la lactancia exclusiva o aumentar la proporción de pecho que recibe tu bebé, **es totalmente posible lograrlo** con un proceso de relactación acompañado por tu equipo de salud. Si la fórmula es médicamente necesaria, el equipo del CESFAM te indicará la preparación exacta y la entrega a través del Programa Nacional de Alimentación Complementaria (PNAC). Evalúalo con un profesional en la CLAC de tu CESFAM para armar un plan a tu medida."
   },
   {
     "id": "poca-produccion-leche",
