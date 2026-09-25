@@ -90,6 +90,23 @@ h2 {
   margin: 6px 0 0;
 }
 
+.encabezado--con-insignia {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.encabezado__insignia {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 /* Utilidades de layout */
 .pila {
   display: flex;

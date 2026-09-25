@@ -37,3 +37,25 @@ export function IconoGota(props) {
     </svg>
   )
 }
+
+export function IlustracionMadreBebe(props) {
+  return (
+    <svg viewBox="0 0 200 200" {...props}>
+      <path
+        d="M72,58 C58,92 50,150 58,196 L142,196 C150,150 142,92 128,58 C118,68 82,68 72,58 Z"
+        fill="var(--color-primary)"
+      />
+      <circle cx="100" cy="44" r="23" fill="var(--color-primary)" />
+      <path
+        d="M64,110 C58,130 56,150 58,170 C70,150 82,140 92,138 L92,120 C82,116 72,112 64,110 Z"
+        fill="var(--color-primary-dark)"
+      />
+      <path
+        d="M136,110 C142,130 144,150 142,170 C130,150 118,140 108,138 L108,120 C118,116 128,112 136,110 Z"
+        fill="var(--color-primary-dark)"
+      />
+      <ellipse cx="100" cy="146" rx="21" ry="27" fill="var(--color-accent)" />
+      <circle cx="100" cy="116" r="16" fill="var(--color-accent)" />
+    </svg>
+  )
+}
