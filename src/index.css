@@ -30,6 +30,36 @@ body {
   margin: 0 auto;
   padding: 16px;
   box-sizing: border-box;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pie-pagina {
+  margin-top: auto;
+  padding-top: 16px;
+  text-align: center;
+  color: var(--color-primary-dark);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.pie-pagina::before {
+  content: '';
+  display: block;
+  border-top: 1px solid var(--color-border);
+  margin: 24px auto 16px;
+  max-width: 120px;
+}
+
+.pie-pagina p {
+  margin: 0;
+}
+
+.pie-pagina .pie-pagina__lugar {
+  font-weight: 800;
+  margin-bottom: 2px;
 }
 
 a {
